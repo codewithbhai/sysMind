@@ -34,5 +34,3 @@ public abstract class CallLogDatabase extends RoomDatabase {
         return INSTANCE;
     }
 }
-/*edfghjkl'
-* */
