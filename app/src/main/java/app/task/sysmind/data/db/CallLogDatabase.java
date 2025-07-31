@@ -13,6 +13,7 @@ import androidx.room.RoomDatabase;
 public abstract class CallLogDatabase extends RoomDatabase {
 
     private static final String DB_NAME = "call_log_db";
+
     private static volatile CallLogDatabase INSTANCE;
 
     public abstract CallLogDao callLogDao();
@@ -33,3 +34,5 @@ public abstract class CallLogDatabase extends RoomDatabase {
         return INSTANCE;
     }
 }
+/*edfghjkl'
+* */
